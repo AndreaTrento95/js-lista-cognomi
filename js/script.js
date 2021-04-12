@@ -21,18 +21,20 @@ cognomi.sort();
 
 
 for(var i = 0; i < cognomi.length; i++){
-    cognome = cognomi[i];
+    var cognome = cognomi[i];
     
     var elemento_precedente = document.getElementById("lista").innerHTML;
     document.getElementById("lista").innerHTML = elemento_precedente + "<li>"+ cognome +"</li>";
+   
+}
 
-   /*  var trovato = false;
-    while(trovato === false){
-        if(cognome === nome_utente){
-            trovato = true;
-            console.log("TROVATO");
-        }
-        i++;
+var count = 0;
+while(count < cognomi.length ){
+    var cognome = cognomi[count];
+    if(cognome === cognome_utente){
+        count += 1;
+        console.log(" Sei il numero " + count) ;
     }
-     */
+    
+    count++;
 }
