@@ -26,7 +26,7 @@ for(var i = 0; i < cognomi.length; i++){
     var elemento_precedente = document.getElementById("lista").innerHTML;
     document.getElementById("lista").innerHTML = elemento_precedente + "<li>"+ cognome +"</li>";
 
-    var trovato = false;
+   /*  var trovato = false;
     while(trovato === false){
         if(cognome === nome_utente){
             trovato = true;
@@ -34,5 +34,5 @@ for(var i = 0; i < cognomi.length; i++){
         }
         i++;
     }
-    
+     */
 }
