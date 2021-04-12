@@ -13,8 +13,9 @@ var cognome_utente = prompt("Inserisci il tuo cognome");
 
 // Inserisco il cognome all'interno dell'array cognomi
 cognomi.push(cognome_utente);
-console.log(cognomi);
-cognomi.sort();   // arr.sort() metodo per ordinare alfabeticamente delle stringhe
+
+// Ordino alfabeticamente le stringhe dell'array
+cognomi.sort();   
 
 // Stampo la lista ordinata alfabeticamente
 for(var i = 0; i < cognomi.length; i++){
