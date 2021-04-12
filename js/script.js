@@ -18,8 +18,6 @@ cognomi.push(cognome_utente);
 cognomi.sort();   
 
 // Stampo la lista ordinata alfabeticamente
-
-
 for(var i = 0; i < cognomi.length; i++){
     var cognome = cognomi[i];
     
@@ -28,6 +26,7 @@ for(var i = 0; i < cognomi.length; i++){
    
 }
 
+// Indico la sua posizione all'utente
 var count = 0;
 while(count < cognomi.length ){
     var cognome = cognomi[count];
